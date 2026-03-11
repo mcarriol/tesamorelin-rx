@@ -1,4 +1,4 @@
-/* Aurelius Health Group — Navbar
+/* TesamorelinRx — Standalone Navbar
    Design: Fixed, transparent → glass-dark on scroll
    Typography: DM Sans (geometric sans-serif)
      Logo wordmark: weight 500, wide tracking
@@ -52,7 +52,7 @@ export default function Navbar() {
             letterSpacing: "0.12em",
             color: "#F5F0E8",
             textTransform: "uppercase",
-          }}>Aurelius</span>
+          }}>TesamorelinRx</span>
           <span style={{
             display: "block",
             fontFamily: "'DM Sans', system-ui, sans-serif",
@@ -62,7 +62,7 @@ export default function Navbar() {
             color: "#8C7B6B",
             textTransform: "uppercase",
             marginTop: 2,
-          }}>Health Group</span>
+          }}>by Aurelius Health Group</span>
         </div>
       </a>
 
@@ -76,10 +76,10 @@ export default function Navbar() {
         padding: 0,
       }} className="hidden md:flex">
         {[
-          { label: "Treatments", href: "#peptides" },
-          { label: "TesamorelinRx", href: "/" },
-          { label: "How It Works", href: "#how" },
-          { label: "Our Standards", href: "#trust" },
+          { label: "How It Works", href: "#mechanism" },
+          { label: "The Research", href: "#research" },
+          { label: "What's Included", href: "#included" },
+          { label: "FAQ", href: "#faq" },
         ].map((link) => (
           <li key={link.label}>
             <a
@@ -103,7 +103,7 @@ export default function Navbar() {
 
       {/* CTA Buttons */}
       <div style={{ display: "flex", alignItems: "center", gap: 10 }} className="hidden md:flex">
-        <a href="#cta" className="btn-ghost-cream" style={{ padding: "10px 20px", fontSize: "0.875rem" }}>
+        <a href="#quiz" className="btn-ghost-cream" style={{ padding: "10px 20px", fontSize: "0.875rem" }}>
           See If You Qualify
         </a>
         <a href="#cta" className="btn-gold" style={{ padding: "10px 20px", fontSize: "0.875rem" }}>
@@ -154,10 +154,10 @@ export default function Navbar() {
           gap: 20,
         }}>
           {[
-            { label: "Treatments", href: "#peptides" },
-            { label: "TesamorelinRx", href: "/" },
-            { label: "How It Works", href: "#how" },
-            { label: "Our Standards", href: "#trust" },
+            { label: "How It Works", href: "#mechanism" },
+            { label: "The Research", href: "#research" },
+            { label: "What's Included", href: "#included" },
+            { label: "FAQ", href: "#faq" },
           ].map((link) => (
             <a
               key={link.label}
@@ -175,7 +175,7 @@ export default function Navbar() {
             </a>
           ))}
           <div style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 8 }}>
-            <a href="#cta" onClick={() => setMenuOpen(false)} className="btn-ghost-cream" style={{ justifyContent: "center" }}>
+            <a href="#quiz" onClick={() => setMenuOpen(false)} className="btn-ghost-cream" style={{ justifyContent: "center" }}>
               See If You Qualify
             </a>
             <a href="#cta" onClick={() => setMenuOpen(false)} className="btn-gold" style={{ justifyContent: "center" }}>

@@ -323,7 +323,7 @@ export default function TesamorelinRx() {
       </section>
 
       {/* ══ PROBLEM — 6 cards ══ */}
-      <section style={{ background: "#F5F0E8", padding: "100px 0" }}>
+      <section id="problem" style={{ background: "#F5F0E8", padding: "100px 0" }}>
         <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 2.5rem" }}>
           <p style={{ ...s.label, marginBottom: 16 }}>The Problem</p>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 2fr", gap: 60, alignItems: "start", marginBottom: 64 }}>
@@ -425,7 +425,7 @@ export default function TesamorelinRx() {
       </section>
 
       {/* ══ FIVE PATHWAYS ══ */}
-      <section style={{ background: "#F5F0E8", padding: "100px 0" }}>
+      <section id="pathways" style={{ background: "#F5F0E8", padding: "100px 0" }}>
         <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 2.5rem" }}>
           <p style={{ ...s.label, marginBottom: 16 }}>Clinical Evidence</p>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 2fr", gap: 60, alignItems: "start", marginBottom: 64 }}>
@@ -457,7 +457,7 @@ export default function TesamorelinRx() {
       </section>
 
       {/* ══ RESEARCH — 6 studies ══ */}
-      <section style={{ background: "#0D0D0D", padding: "100px 0" }}>
+      <section id="research" style={{ background: "#0D0D0D", padding: "100px 0" }}>
         <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 2.5rem" }}>
           <p style={{ ...s.label, marginBottom: 16 }}>Peer-Reviewed Evidence</p>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 2fr", gap: 60, alignItems: "start", marginBottom: 64 }}>
@@ -483,7 +483,7 @@ export default function TesamorelinRx() {
       </section>
 
       {/* ══ 4-STEP PROTOCOL ══ */}
-      <section style={{ background: "#F5F0E8", padding: "100px 0" }}>
+      <section id="protocol" style={{ background: "#F5F0E8", padding: "100px 0" }}>
         <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 2.5rem" }}>
           <p style={{ ...s.label, marginBottom: 16 }}>The Protocol</p>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 2fr", gap: 60, alignItems: "start", marginBottom: 64 }}>
@@ -527,7 +527,7 @@ export default function TesamorelinRx() {
       </section>
 
       {/* ══ WHAT'S INCLUDED ══ */}
-      <section style={{ background: "#0D0D0D", padding: "100px 0" }}>
+      <section id="included" style={{ background: "#0D0D0D", padding: "100px 0" }}>
         <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 2.5rem" }}>
           <p style={{ ...s.label, marginBottom: 16 }}>What's Included</p>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 2fr", gap: 60, alignItems: "start", marginBottom: 64 }}>
@@ -547,7 +547,7 @@ export default function TesamorelinRx() {
       </section>
 
       {/* ══ PRICING ══ */}
-      <section style={{ background: "#F5F0E8", padding: "100px 0" }}>
+      <section id="pricing" style={{ background: "#F5F0E8", padding: "100px 0" }}>
         <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 2.5rem" }}>
           <p style={{ ...s.label, marginBottom: 16 }}>Pricing</p>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 80, alignItems: "center" }}>
@@ -609,7 +609,7 @@ export default function TesamorelinRx() {
       </section>
 
       {/* ══ FAQ ══ */}
-      <section style={{ background: "#0D0D0D", padding: "100px 0", borderTop: "1px solid rgba(245,240,232,0.06)" }}>
+      <section id="faq" style={{ background: "#0D0D0D", padding: "100px 0", borderTop: "1px solid rgba(245,240,232,0.06)" }}>
         <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 2.5rem" }}>
           <p style={{ ...s.label, marginBottom: 16 }}>Frequently Asked Questions</p>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 2fr", gap: 80, alignItems: "start" }}>
